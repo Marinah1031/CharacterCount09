@@ -36,7 +36,7 @@ This project was created to help those who need a quick and easy way to generate
 
   
 
-## Contributing
+## Contribution
 
 This project was able to function with guidance from the following:
 - Trinh Nguyen
