@@ -1,18 +1,16 @@
-# CharacterCount09
-![GitHub Liscense](https://img.shields.io/badge/license-MIT-blue.svg)
+# hello
+![GitHub Liscense](https://img.shields.io/badge/license-BDS 3-blue.svg)
 
 ## Description
 
-a readme building generator
+hi
 
 ## Table of Contents
 
 * [Installation](#installation)
 
 * [Usage](#usage)
-
-* [License](#license)
-
+https://opensource.org/license/bsd-3-clause/ 
 * [Contributing](#contributing)
 
 * [Tests](#tests)
@@ -29,10 +27,13 @@ npm i
 
 ## Usage Information
 
-You must answer a series of questions to create the readdme.
-## License
 
-This project is licensed under the MIT license.
+
+  BSD 3-Clause License
+  
+  [![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+  
 
 ## Contributing Guidelines
 
@@ -48,4 +49,4 @@ npm test
 
 ## Questions
 
-For further questions regarding the repository, create an issue or contact me at: marinahtam@gmail.com. You can find more of my work on GitHub here: marinah1031 (https://github.com/marinah1031 /).
+For further questions regarding the repository, create an issue or contact me at: hi. You can find more of my work on GitHub here: hi (https://github.com/hi /).

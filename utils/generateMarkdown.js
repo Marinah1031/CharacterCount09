@@ -10,23 +10,68 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license !== 'None') {
-    return `\n* [License](#license)\n`;
+  // Define a mapping of license names to their URLs
+  const licenseUrls = {
+      // The licenses links as needed
+      'MIT': 'https://opensource.org/licenses/MIT',
+      'Apache 2.0': 'https://www.apache.org/licenses/LICENSE-2.0',
+      'GPL 3.0': 'https://www.gnu.org/licenses/gpl-3.0.en.html ',
+      'BDS 3' : 'https://opensource.org/license/bsd-3-clause/ ',
+      'NONE' : ''
   }
-  return '';
-}
+
+  // Check if the license is in the mapping
+  if (license && licenseUrls.hasOwnProperty(license)) {
+      return licenseUrls[license];
+  } else {
+      return ''; // Return an empty string if the license is not found or undefined
+  }
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license !== 'None') {
+  // if (license !== 'None') {
 //returns the license section of README
-    return `## License
+const licenseTexts = {
+  'MIT': `
+  MIT License
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project is licensed under the ${license} license.`;
-  }
+  `,
+  'Apache 2.0': `
+  Apache License 2.0
+  
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+  `,
+  'GPL 3.0': `
+  GNU General Public License v3.0
+  
+  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+  `,
+  'BDS 3': `
+  BSD 3-Clause License
+  
+  [![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+  `,
+  'NONE': ''
+
+}
+//     return `## License
+
+if (license && licenseTexts.hasOwnProperty(license)) {
+  return licenseTexts[license];
+} else {
   return '';
 }
+
+};
+// This project is licensed under the ${license} license.`;
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
