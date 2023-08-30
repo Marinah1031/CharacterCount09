@@ -5,6 +5,8 @@
 ### Here is the link to the video tutorial
 
 [Untitled_ Aug 29, 2023 9_14 PM.webm](https://github.com/Marinah1031/CharacterCount09/assets/125934804/e5707881-10ad-4b54-a02a-e96458cd47e3)
+### Please Note
+- In the video, the contribution section comes up as empty, but it was a spelling error which is now fixed. Feel free to test the application yourself. 
 
 ## Table of Contents
 
