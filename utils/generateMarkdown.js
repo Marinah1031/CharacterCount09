@@ -104,14 +104,14 @@ For installation of dependencies, use the command below.
 ${data.installation}
 \`\`\`
 
-## Usage Information
+## Usage
 
 ${data.usage}
 ${renderLicenseSection(data.license)}
 
-## Contributing Guidelines
+## Contributing
 
-${data.contribution}
+${data.contributing}
 
 ## Tests
 
