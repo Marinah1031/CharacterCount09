@@ -61,7 +61,7 @@ const questions = [
 // TODO: Create a function to write README file
 //a synchronus method that writes data to a file
 function writeToFile(fileName, data) {
-    //creates the fath to the file by joining the current directory with the specified fileName. 
+    //creates the path to the file by joining the current directory with the specified fileName. 
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
     }
 // TODO: Create a function to initialize app
