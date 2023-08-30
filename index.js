@@ -68,9 +68,9 @@ function writeToFile(fileName, data) {
 function init() {
     //a series of questions are presented in the array and the questions are passed as an object to the .then() callback.
     inquirer.prompt(questions).then((inquirerResponses) => {
-        console.log('README file is Generating.');
+        console.log('READMEsample file is Generating.');
         //the generateMarkdown is used to format the user's responses into a valid format to be written to the file. 
-        writeToFile('README.md', generateMarkdown({ ...inquirerResponses}));    })
+        writeToFile('READMEsample.md', generateMarkdown({ ...inquirerResponses}));    })
     }
         // Function call to initialize app
 init();
