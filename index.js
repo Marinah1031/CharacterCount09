@@ -43,7 +43,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributing',     /// contribution guidelines
+        name: 'contribution',     /// contribution guidelines
         message: 'Who contributed to this project:',
     },
     {

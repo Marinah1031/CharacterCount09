@@ -90,7 +90,7 @@ ${data.description}
 
 * [Usage](#usage)
 ${renderLicenseLink(data.license)}
-* [Contributing](#contributing)
+* [Contributing](#contribution)
 
 * [Tests](#tests)
 
@@ -109,9 +109,9 @@ ${data.installation}
 ${data.usage}
 ${renderLicenseSection(data.license)}
 
-## Contributing
+## Contribution
 
-${data.contributing}
+${data.contribution}
 
 ## Tests
 
