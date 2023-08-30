@@ -18,7 +18,7 @@ https://opensource.org/licenses/MIT
 
 * [Questions](#questions)
 
-## Installation Guide
+## Installation
 
 For installation of dependencies, use the command below.
 
@@ -26,7 +26,7 @@ For installation of dependencies, use the command below.
 npm i
 ```
 
-## Usage Information
+## Usage 
 
 This project was created to help those who need a quick and easy way to generate a README file without creating one each time.
 
@@ -36,7 +36,7 @@ This project was created to help those who need a quick and easy way to generate
 
   
 
-## Contributing Guidelines
+## Contributing
 
 This project was able to function with guidance from the following:
 - Trinh Nguyen
