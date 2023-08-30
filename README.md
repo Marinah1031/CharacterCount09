@@ -2,8 +2,9 @@
 ![GitHub Liscense](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
+### Here is the link to the video tutorial
 
-A README Generator application
+[Untitled_ Aug 29, 2023 9_14 PM.webm](https://github.com/Marinah1031/CharacterCount09/assets/125934804/e5707881-10ad-4b54-a02a-e96458cd47e3)
 
 ## Table of Contents
 
@@ -17,7 +18,7 @@ https://opensource.org/licenses/MIT
 
 * [Questions](#questions)
 
-## Installation Guide
+## Installation
 
 For installation of dependencies, use the command below.
 
@@ -25,9 +26,9 @@ For installation of dependencies, use the command below.
 npm i
 ```
 
-## Usage Information
+## Usage 
 
-It can be used as a reference
+This project was created to help those who need a quick and easy way to generate a README file without creating one each time.
 
   MIT License
   
@@ -35,9 +36,14 @@ It can be used as a reference
 
   
 
-## Contributing Guidelines
+## Contributing
 
-undefined
+This project was able to function with guidance from the following:
+- Trinh Nguyen
+- Instructor (Jared Kotoff)
+- TA (Nick Graffis)
+- UCI Bootcamp Assignment references
+- Inquirer documentation
 
 ## Tests
 
@@ -46,7 +52,12 @@ For running tests, use the command below.
 ```
 npm test
 ```
+Here is a sample generated README file
+
+
+[READMEsample.md](https://github.com/Marinah1031/CharacterCount09/files/12472990/READMEsample.md)
+
 
 ## Questions
 
-For further questions regarding the repository, create an issue or contact me at: marinahtamura@gmail.com. You can find more of my work on GitHub here: Marinah1031 (https://github.com/Marinah1031 /).
+For further questions regarding the repository, create an issue or contact me at: marinahtam@gmail.com. You can find more of my work on GitHub here: Marinah1031 (https://github.com/Marinah1031 /).
