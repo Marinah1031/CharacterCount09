@@ -52,9 +52,8 @@ For running tests, use the command below.
 ```
 npm test
 ```
-[Uploading READMEsample.md…]()
-
 Here is a sample generated README file
+[READMEsample.md](https://github.com/Marinah1031/CharacterCount09/files/12472990/READMEsample.md)
 
 
 ## Questions
