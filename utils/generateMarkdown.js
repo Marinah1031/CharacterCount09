@@ -61,18 +61,20 @@ const licenseTexts = {
   'NONE': ''
 
 }
-//     return `## License
-
+//This line checks whether the license variable is defined 
+//(not null, undefined, or an empty string) 
+//and if the licenseTexts object has a property corresponding to the provided license.
 if (license && licenseTexts.hasOwnProperty(license)) {
+  //returning the license as a string
   return licenseTexts[license];
 } else {
   return '';
 }
 
 };
-// This project is licensed under the ${license} license.`;
 
-
+//The triple backticks are used to create code blocks, displaying code in the monospaced font while 
+//preserving the format
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}

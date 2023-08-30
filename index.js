@@ -1,10 +1,12 @@
 // TODO: Include packages needed for this application
+//Installation of the packages used
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
+//creating an array of questions
 const questions = [
     {
         type:'input',
@@ -57,13 +59,17 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
+//a synchronus method that writes data to a file
 function writeToFile(fileName, data) {
+    //creates the fath to the file by joining the current directory with the specified fileName. 
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
     }
 // TODO: Create a function to initialize app
 function init() {
+    //a series of questions are presented in the array and the questions are passed as an object to the .then() callback.
     inquirer.prompt(questions).then((inquirerResponses) => {
         console.log('README file is Generating.');
+        //the generateMarkdown is used to format the user's responses into a valid format to be written to the file. 
         writeToFile('README.md', generateMarkdown({ ...inquirerResponses}));    })
     }
         // Function call to initialize app
