@@ -60,4 +60,4 @@ Here is a sample generated README file
 
 ## Questions
 
-For further questions regarding the repository, create an issue or contact me at: marinahtamura@gmail.com. You can find more of my work on GitHub here: Marinah1031 (https://github.com/Marinah1031 /).
+For further questions regarding the repository, create an issue or contact me at: marinahtam@gmail.com. You can find more of my work on GitHub here: Marinah1031 (https://github.com/Marinah1031 /).
